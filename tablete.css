@@ -170,15 +170,15 @@
        }
        @keyframes troca {
         0%{
-            background: url(../imagens/foto1.webp);
+            background: url(foto1.webp);
             background-size: cover;
         }
         40%{
-            background: url(../imagens/foto4.webp);
+            background: url(foto4.webp);
             background-size: cover;
         }
         80%{
-            background: url(../imagens/foto3.webp);
+            background: url(foto3.webp);
             background-size: cover;
         }
        }
@@ -400,6 +400,9 @@
         }
 
         @media only screen and (max-width: 425px) {
+            nav{
+                height: 150px;
+            }
             nav div#logo h1, .rodape h1{
                 font-size: 30px;
             }
