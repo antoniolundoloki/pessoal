@@ -406,6 +406,22 @@
             nav div#logo h1, .rodape h1{
                 font-size: 30px;
             }
+            div#menu ul{
+                margin-top: 150px;
+            }
+            div#menu ul{
+                margin-top: 150px;
+            }
+            nav div#logo h1{
+                margin-top: 10px;
+            }
+            article#redes{
+                top: 90px;
+            }
+            div#menu2{
+                margin-top: 65px;
+                margin-right: -20px;
+            }
             main{
                 height: 2200px;
             }
