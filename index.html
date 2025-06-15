@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/computador.css">
+    <link rel="stylesheet" href="css/tablete.css">
+    <link rel="shortcut icon" href="imagem/ant.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>António Lundoloki</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="imagem/img.jpg" alt="">
+            <h1>António Lundoloki</h1>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sob">Sobre Eu</a></li>
+                <li><a href="#ser">Servíços</a></li>
+                <li><abbr title="Whatsapp"><a href="https://wa.me/244945498822" target="_blank" class="fale">Fale Comigo</a></abbr></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header>
+        <section id="info">
+            <h2>Você achou o melhor !</h2>
+            <h1>António Lundoloki</h1>
+
+            <p>Olá! Como já referido o meu nome é <strong>António Lundoloki</strong>, sou estudante do Ensino Médio Técnico em Informática. Atualmente, estou cursando o 2º ano no instituto Politecnico Industrial Kilamba Kiaxi Nº 8056 "Nova Vida" (IPIKK-NV) , onde venho desenvolvendo conhecimentos fundamentais sobre hardware, software, redes de computadores e programação.</p>
+            <p>Tenho grande interesse em tecnologia e informática, especialmente em desenvolvimento de sites, manutenção de computadores e ainda desenvolvimento app. Durante o curso, já participei de projetos práticos que me ajudaram a aplicar o que aprendi em sala de aula, como a montagem de computadores, criação de pequenos programas e desenvolvendo de páginas web.
+            </p>
+
+            <p style="margin-top: 40px;"><a href="#ro" class="cont">Contacte Agora</a></p>
+        </section>
+
+        <section id="imagem">
+            <img src="imagem/img.jpg" alt="">
+        </section>
+        
+    </header>
+    <section id="sob" style="width: 100%; background-color: white; height: 100px;">
+        <div id="menu2">☰</div>
+        <div id="topo">
+            <i>&#9650;</i>
+        </div>
+        <div id="whats">
+            <a href="https://wa.me/244945498822" target="_blank"><img src="imagem/whatsapp.png" alt=""></a>
+        </div>
+    </section>
+
+
+    <script>
+        
+    document.getElementById('topo').addEventListener('click', function topo(){
+        window.scrollTo({top:0, behavior:'smooth'});
+    });
+
+
+    window.onscroll = function voltar(){
+        const voltar = document.getElementById('topo');
+        
+        if (scrollY > innerHeight){
+            voltar.style.display = 'block'
+        }
+        else{
+            voltar.style.display = 'none'
+        }
+    }
+
+    document.getElementById('menu2').addEventListener('click', function ativar(){
+        document.getElementById('menu').classList.toggle('ativo')
+    })
+    </script>
+    
+    <main>
+        <section id="sobre">
+            <div>
+                <section class="foto"></section>
+                <section class="info">
+                    <iframe src="css/frame.html" frameborder="0" width="100%" height="450px"></iframe>
+                </section>
+            </div>
+        </section>
+        <h1 id="ser"></h1>
+        <section id="servico">
+            <h2>O que posso fazer pelo seu negócio?</h2>
+            <div class="servico">
+                <div class="card">
+                    <img src="imagem/pc.png" alt="">
+                    <div class="text-card">
+                        <h3>Desenvolvimento web</h3>
+                        <p style="margin-top: 13px;">Tenho experiência em desenvolvimento web com foco na criação de sites modernos e responsivos, utilizando HTML, CSS, JavaScript e frameworks como Bootstrap. Desenvolvo páginas institucionais, portfólios e sites pessoais, sempre com atenção ao design, funcionalidade e usabilidade.</p>
+                    </div>
+                    <div class="text-oculto">
+                        <h3>Mais Sobre</h3>
+                        <p>O desenvolvimento web é uma das áreas que mais desperta meu interesse. Tenho trabalhado na criação de páginas e sites funcionais e bem estruturados, usando HTML5, CSS3 e JavaScript. Já desenvolvi um portfólio online, um site de apresentação de projetos escolares e participei na estruturação de um blog acadêmico. Estou sempre explorando novas formas de tornar as interfaces mais acessíveis e interativas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagem/smart.png" alt="">
+                    <div  class="text-card">
+                        <h3>Desenvolvimento App</h3>
+                        <p>Participo em projetos de desenvolvimento de aplicações simples, usando linguagens como Python e Java. Meu foco está em criar soluções práticas, como calculadoras, sistemas de login e aplicativos básicos para desktop, que contribuem para o aprendizado e resolução de problemas reais.</p>
+                    </div>
+                    <div class="text-oculto">
+                        <h3>Mais Sobre</h3>
+                        <p>Tenho aplicado meus conhecimentos em linguagens de programação como Python e C para desenvolver aplicações simples que resolvem problemas do dia a dia. Já criei um gerador de senhas, uma aplicação de anotações e um sistema de controle de dados em formato local. Cada projeto é uma oportunidade de aprender mais sobre lógica, estrutura de dados e interação com o usuário.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagem/marketing.png" alt="">
+                    <div class="text-card">
+                        <h3>Marketing Digital</h3>
+                        <p>Estudo os princípios do marketing digital, com interesse em estratégias de divulgação online, criação de conteúdo para redes sociais e noções de SEO. Essa área complementa meus conhecimentos técnicos, ajudando a tornar projetos digitais mais visíveis e eficazes através de  uso de ferramentas.</p>
+                    </div>
+                    <div class="text-oculto">
+                        <h3>Mais Sobre</h3>
+                        <p>O marketing digital é essencial para dar visibilidade aos projetos. Tenho interesse em aprender estratégias de divulgação e uso de redes sociais para alcançar um público maior. Já participei da criação de conteúdos gráficos para divulgação de trabalhos escolares, uso básico de ferramentas de design e aplicação de técnicas simples de engajamento em plataformas como WhatsApp e Instagram.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="ro">
+        <div class="rodape">
+            <h1 class="agencia">António Lundoloki</h1>
+            <p><em>"Transformando conhecimento em soluções digitais."</em></p>
+            
+        </div>
+
+        <div id="fim">
+            <article>
+                <h1>Contacto</h1>
+                <p>Email: antoniolundoloki801@gmail.com <br>
+                    (+244) 945498822 <br>
+                    (+244) 951683385
+                </p>
+            </article>
+            
+
+            <article id="redes">
+                <h1>Redes Sociais</h1>
+                <p>
+                    <abbr title="Facebook"><a href="https://www.facebook.com/" class="fab fa-facebook" id="re" target="_blank"></a></abbr>
+                    <abbr title="Instagram"><a href="https://www.instagram.com/" class="fab fa-instagram" id="re" target="_blank"></a></abbr>
+                    <abbr title="YouTube"><a href="https://www.youtube.com/@AntonioLundoloki" class="fab fa-youtube" id="re" target="_blank"></a></abbr>
+                    <abbr title="GitHub"><a href="https://github.com/antoniolundoloki" class="fab fa-github" id="re" target="_blank"></a></abbr>
+                </p>
+            </article>
+        </div>
+    </footer>
+</body>
+</html>
