@@ -1,5 +1,7 @@
 @media screen and (max-width: 1000px) {
-    
+    body::-webkit-scrollbar {
+        display: none;    
+    }
     nav div#menu{
         background-color: rgba(58, 164, 199, 0);
         width: 250px;
