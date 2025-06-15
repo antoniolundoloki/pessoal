@@ -18,9 +18,9 @@
 
         <div id="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#sob">Sobre Eu</a></li>
-                <li><a href="#ser">Servíços</a></li>
+                <li><a href="index.html" onclick="fecharMenu()">Home</a></li>
+                <li><a href="#sob" onclick="fecharMenu()">Sobre Eu</a></li>
+                <li><a href="#ser" onclick="fecharMenu()">Servíços</a></li>
                 <li><abbr title="Whatsapp"><a href="https://wa.me/244945498822" target="_blank" class="fale">Fale Comigo</a></abbr></li>
             </ul>
         </div>
@@ -75,6 +75,10 @@
     document.getElementById('menu2').addEventListener('click', function ativar(){
         document.getElementById('menu').classList.toggle('ativo')
     })
+
+    function fecharMenu() {
+        document.getElementById('menu').classList.remove('ativo');
+    }
     </script>
     
     <main>
