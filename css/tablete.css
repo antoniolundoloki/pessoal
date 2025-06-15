@@ -16,7 +16,7 @@
         right: 0;
     }
     div#menu ul{
-        margin-top: 140px;
+        margin-top: 130px;
         list-style-type: none;
         padding: 20px;
         background-color: rgba(58, 164, 199);
@@ -76,7 +76,6 @@
     nav div#logo h1{
         text-align: center;
         color: white;
-        margin-top: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 33px;
     }
