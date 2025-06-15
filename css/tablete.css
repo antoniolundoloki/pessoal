@@ -16,7 +16,7 @@
         right: 0;
     }
     div#menu ul{
-        margin-top: 170px;
+        margin-top: 140px;
         list-style-type: none;
         padding: 20px;
         background-color: rgba(58, 164, 199);
@@ -63,7 +63,7 @@
         z-index: 1;
     }
     nav{
-        height: 170px;
+        height: 130px;
         width: 100%;
         position: sticky;
         top: 0;
@@ -363,7 +363,7 @@
         display: inline-block;
         width: 100%;
         position: fixed;
-        top: 100px;
+        top: 70px;
         z-index: 1;
     }
     article#redes h1{
